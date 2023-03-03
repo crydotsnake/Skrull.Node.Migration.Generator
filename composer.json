@@ -1,0 +1,25 @@
+{
+    "description": "Create node migrations from the command line",
+    "type": "neos-plugin",
+    "name": "skrull/node-migration-generator",
+    "license": "MIT",
+    "keywords": [
+        "neoscms",
+        "flow",
+        "terminal",
+        "console"
+    ],
+    "require": {
+        "neos/neos": "^7.3 || ^8.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skrull\\Node\\Migration\\Generator\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Skrull.Node.Migration.Generator"
+        }
+    }
+}
